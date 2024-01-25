@@ -15,7 +15,7 @@ import ExpenseList from "../components/expensecard";
 import {Col, Row} from "react-grid-system";
 // import { PieChart } from 'react-minimal-pie-chart';
 import { PieChart } from '@mui/x-charts/PieChart';
-import Typography from "@mui/material/Typography";
+// import Typography from "@mui/material/Typography";
 
 const categories = ['Health', 'Food', 'Recreation', 'Investments', 'Clothing', 'Others'];
 
@@ -117,12 +117,6 @@ const RequestForm = (props) => {
         loadPage();
         // eslint-disable-next-line
     }, [props])
-
-    const getLabelStyle = (dataEntry) => ({
-        fontSize: '50px',
-        fill: 'white',
-        stroke: 'white'
-    });
 
     return (
         <>
